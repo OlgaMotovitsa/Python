@@ -25,7 +25,7 @@ X = int(input ("Введите число, к которому будем иск
 
 tempDiff = 0
 minDiff = 0
-result = 1
+result = 0
 
 for i in range (N):
     if my_list[i] > X:
