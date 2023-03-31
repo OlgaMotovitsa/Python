@@ -17,6 +17,5 @@ def Sum(number_a, number_b):
         return Sum(number_a-1, number_b+1)
     return (number_a+number_b)
     
-    
 result = Sum(number_a, number_b)
 print(f'{number_a} + {number_b} = {result}')
