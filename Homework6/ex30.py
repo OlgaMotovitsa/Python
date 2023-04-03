@@ -10,8 +10,10 @@ def Progressia (num, step, numbers):
     for i in range (numbers):
         progressia_array.append(num + i * step)
     return progressia_array
+
 num_1 = int(input("Введите первый элемент  "))
 numbers_1 = int(input("введите количество элементов   "))
 step_1 = int(input("Введите шаг  "))
+
 result = Progressia(num_1, step_1, numbers_1)
 print (result)
