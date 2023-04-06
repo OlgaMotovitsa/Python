@@ -15,3 +15,14 @@
 
 # **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да    
 #     **Вывод:** Парам пам-пам 
+
+vowel_letters = "аеёищуыэюя"
+def Rithm(str):
+    count_vowels = [sum(map(lambda letter: letter in vowel_letters, word)) for word in str.split()]
+    return len(set(count_vowels)) == 1
+    print (count_vowels)
+
+if Rithm(input("Введите фразы стихотворения  ")):
+    print ("Парам пам-пам")
+else:
+    print ("Пам парам")
