@@ -16,7 +16,7 @@ if side_a <= side_b + side_c \
     and side_c <= side_a + side_b:
         if side_a == side_b == side_c:
             print("равносторонний")
-        elif side_a != side_b != side_c:
+        elif side_a != side_b != side_c and side_a != side_c:
             print("разносторонний")
         else:
             print("равнобедренный")
