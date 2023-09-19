@@ -19,6 +19,7 @@ if number in range(1, 100000):
         print("простое число")
     else:
         print("сложное число")
+
 else:
     print("введите число от 1 - 100000")
 

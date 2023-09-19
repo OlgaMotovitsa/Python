@@ -10,7 +10,6 @@ match color:
         print('Тебя не понять')
 
 
-
 color = input('Твой любимый цвет: ')
 if color == 'красный':
     print('Любитель яркого')

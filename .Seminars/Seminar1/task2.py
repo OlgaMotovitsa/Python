@@ -6,6 +6,7 @@ n = 10
 e = 5
 count = 0
 
+
 while count < n:
     break
 summa = 0
