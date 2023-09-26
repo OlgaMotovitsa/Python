@@ -20,5 +20,6 @@ for i in a:
 print(result)
 
 for i in a:
-    result_1[i] = a.count(i)
+    if i not in result_1:
+        result_1[i] = a.count(i)
 print(result_1)
