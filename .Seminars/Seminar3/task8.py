@@ -35,8 +35,9 @@ for i in hike.values():
             only_one -= set(j)
     # print(only_one)
 
-not_one = None
+
 for name, i in hike.items():
+    not_one = None
     for j in hike.values():
         if i == j:
             continue
@@ -46,7 +47,6 @@ for name, i in hike.items():
             not_one &= set(j)
 
     print(name, not_one - set(i))
-    not_one = None
 
 
 
