@@ -84,7 +84,19 @@ while True:
 #     print(s)
 
 
-
+# summ = 10000
+# in_money = 'Пополнить'
+# out_money = 'Снять'
+# exit_bank = 'Выйти'
+# SUMM_SN = 50
+# MOD_SUMM = 0.015
+# MIN_MONEY = 30
+# MAX_MONEY = 600
+# IN_MOD = 1.03
+# GOLD_HUMAN = 0.9
+# MUILTIPLICITY = 3
+# count = 10
+# SUMM_GOLD_HUMAN = 5_000_000
 
 
 
