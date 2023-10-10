@@ -1,56 +1,52 @@
-
-# Проверяйте различный случайные варианты и выведите 4 успешных расстановки.
-#
-# Под "успешной расстановкой ферзей" в данном контексте подразумевается
-# такая расстановка ферзей на шахматной доске,
-# в которой ни один ферзь не бьет другого.
-# Другими словами, ферзи размещены таким образом,
-# что они не находятся на одной вертикали, горизонтали или диагонали.
-#
-# Список из 4-х комбинаций координат сохраните в board_list.
-# Дополнительно печатать его не надо.
-import random
-from itertools import combinations
-
-
-def is_attacking(q1, q2):
-    # Проверяем, бьют ли ферзи друг друга
-    return q1[0] == q2[0] or q1[1] == q2[1] or abs(q1[0] - q2[0]) == abs(q1[1] - q2[1])
-
+# Добавьте в пакет, созданный на семинаре шахматный модуль.
+# Внутри него напишите код, решающий задачу о 8 ферзях,
+# включающий в себя функцию is_attacking(q1,q2), проверяющую,
+# бьют ли ферзи друг друга и heck_queens(queens),
+# которая проверяет все возможные пары ферзей.
+# Известно, что на доске 8×8 можно расставить 8 ферзей так,
+# чтобы они не били друг друга.
+# Вам дана расстановка 8 ферзей на доске, определите,
+# есть ли среди них пара бьющих друг друга.
+# Программа получает на вход восемь пар чисел,
+# каждое число от 1 до 8 - координаты 8 ферзей.
+# Если ферзи не бьют друг друга верните истину,
+# а если бьют - ложь. Не забудьте напечатать результат.
 
 def check_queens(queens):
-    # Проверяем все возможные пары ферзей
-    for q1, q2 in combinations(queens, 2):
-        if is_attacking(q1, q2):
-            return False
+    queens_count = len(queens)
+    for i in range(queens_count):
+        x1, y1 = queens[i]
+        for j in range(i + 1, queens_count):
+            x2, y2 = queens[j]
+            same_line = x1 == x2
+            same_column = y1 == y2
+            same_diagonal = x1 - y1 == x2 - y2 or x1 + y1 == x2 + y2
+            if same_line or same_column or same_diagonal:
+                return False
 
     return True
 
 
-def generate_boards():
-    positions_x = list(range(1, 9))
-    positions_y = positions_x.copy()
-    boards = []
-    while len(boards) != 4:
-        random.shuffle(positions_x)
-        random.shuffle(positions_y)
-        board = [(positions_x[i], positions_y[i]) for i in range(0, len(positions_x))]
-        if check_queens(board):
-            boards.append(board)
-
-    return boards
+assert not check_queens([(1, 1), (2, 3), (3, 5), (4, 7), (5, 2), (6, 4), (7, 6), (8, 8)])
+assert not check_queens(queens=[(1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)])
+assert not check_queens(queens=[(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (1, 7), (1, 8)])
+assert not check_queens(queens=[(1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1)])
+assert check_queens(queens=[])
+assert check_queens(queens=[(4, 4)])
 
 
-board_list = generate_boards()
-print(board_list)
-
-if len(board_list) != 4:
-    print("Вы собрали не то количество комбинаций")
-else:
-    print("Отлично!")
 
 
-assert len(generate_boards()) == 4
+
+
+
+
+
+
+
+
+
+
 
 
 # Ваше решение может быть неверным, потому что вы генерируете только одну расстановку ферзей. Попробуйте генерировать случайные расстановки до тех пор, пока не получите 4 успешных расстановки.
