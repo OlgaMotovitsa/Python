@@ -61,13 +61,13 @@ def rename_files(
         print(f"Переименован файл {filename} в {new_name}")
 
 
-if __name__ == "__main__":
-    directory = "./Homework/DZ7/DZ7_1"  # Путь к исходной директории
-    new_filename = "new_name"  # Желаемое конечное имя файла (может быть None)
-    num_digits = 3  # Задайте желаемое количество цифр в порядковом номере
-    source_extension = ".txt"  # Расширение исходных файлов (может быть None)
-    target_extension = ".jpg"  # Расширение конечных файлов (может быть None)
-    name_range = [3, 6]  # Диапазон для оригинального имени файла (может быть None)
-    rename_files(
-        directory, new_filename, num_digits, source_extension, target_extension, name_range
-    )
+
+directory = r"C:\Users\Оля\OneDrive\Рабочий стол\Учеба\Python\.Homeworks\Homework7"  # Путь к исходной директории
+new_filename = "new_name"  # Желаемое конечное имя файла (может быть None)
+num_digits = 3  # Задайте желаемое количество цифр в порядковом номере
+source_extension = ".txt"  # Расширение исходных файлов (может быть None)
+target_extension = ".jpg"  # Расширение конечных файлов (может быть None)
+name_range = [3, 6]  # Диапазон для оригинального имени файла (может быть None)
+rename_files(
+    directory, new_filename, num_digits, source_extension, target_extension, name_range
+)
