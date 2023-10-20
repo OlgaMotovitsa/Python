@@ -17,7 +17,7 @@ import csv
 from typing import Iterator
 with (
     open('biostats_tab.csv', 'r', newline='') as f_read,
-    open('biostats_new.csv', 'w', newline='', encoding='utf-8') as f_write
+    open('biostats_new1.csv', 'w', newline='', encoding='utf-8') as f_write
 ):
     csv_read: Iterator[dict] = csv.DictReader(f_read,
                         fieldnames=["name", "sex", "age", "height", "weight", "office"], restval="Main Office",
