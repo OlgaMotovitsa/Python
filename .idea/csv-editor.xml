@@ -10,13 +10,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\.Lessons\Lesson8\CSV\biostats_new.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\.Lessons\Lesson8\CSV\biostats_new1.csv">
           <value>
             <Attribute>
@@ -38,14 +31,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\.Lessons\Lesson8\CSV\new_biostats1.csv">
+        <entry key="\.Lessons\Lesson8\CSV\quest.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\.Lessons\Lesson8\CSV\quest.csv">
+        <entry key="\.Seminars\Seminar8\users.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

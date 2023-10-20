@@ -1,8 +1,8 @@
 
 # создали файл 'text_data.txt'
-# f = open('text_data.txt', 'r', encoding='utf-8')
-# print(f)
-# print(list(f))
+f = open('text_data.txt', 'r', encoding='utf-8')
+print(f)
+print(list(f))
 
 # <_io.TextIOWrapper name='text_data.txt' mode='r' encoding='utf-8'>
 # ['Привет мир\n', 'это я']
@@ -54,9 +54,9 @@
 
 # error но делаем как ниже и читаем файл
 
-f = open('data.txt', 'r', encoding='utf-8', errors='replace')
-print(list(f))
-f.close()
+# f = open('data.txt', 'r', encoding='utf-8', errors='replace')
+# print(list(f))
+# f.close()
 
 # ['Привет, ���!']
 
