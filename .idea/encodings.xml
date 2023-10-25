@@ -25,9 +25,18 @@
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/task3.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/task4.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/task5.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/to_json_file.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/users.csv" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/users_new.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/users_new1.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/guess.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/sum_func.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task1.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task2.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task3.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task4.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task5.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/wrapper.json" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
