@@ -4,6 +4,9 @@
     <file url="file://$PROJECT_DIR$/.Homeworks/Homework8/task1.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Homeworks/Homework8/task2.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Homeworks/Homework8/task_2/__init__.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Homeworks/Homework9/__init__.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Homeworks/Homework9/results.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.Homeworks/Homework9/task1.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Lessons/Lesson8/picle/my_dict.pickle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Lessons/Lesson8/picle/task1.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/10_task2.py" charset="UTF-8" />
@@ -28,7 +31,6 @@
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/to_json_file.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/users.csv" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/users_new.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/users_new1.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/guess.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/sum_func.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task1.py" charset="UTF-8" />
@@ -36,7 +38,6 @@
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task3.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task4.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task5.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/wrapper.json" charset="UTF-8" />
-    <file url="PROJECT" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
