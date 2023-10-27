@@ -11,7 +11,6 @@ from task2 import game_decor # контроль значений
 from task3 import func_dec # сохр параметров
 from task4 import func_count # многократный запуск
 
-
 @func_count(3)
 @func_dec
 @game_decor
@@ -24,9 +23,8 @@ def guess(rnd_num, count_try):
             print('число должно быть больше')
         else:
             print(rnd_num)
-            return 'это загаданное число'
-    return 'не угадано'
-
+            return True
+    return False
 
 if __name__ == '__main__':
     print(guess(101,1))

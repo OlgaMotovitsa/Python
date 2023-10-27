@@ -24,7 +24,7 @@ def func_dec(func):
         result = func(*args, **kwargs)
         data.append({"args": args, **kwargs, "result": result})
         with open(func.__name__+".json", "w") as f:
-            json.dump(data, f, indent=2)
+            json.dump(data, f, indent=2, ensure_ascii=False)
         return result
     return wrapper
 
