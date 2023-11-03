@@ -7,37 +7,37 @@
     <file url="file://$PROJECT_DIR$/.Homeworks/Homework9/__init__.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Homeworks/Homework9/results.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.Homeworks/Homework9/task1.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson8/picle/my_dict.pickle" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson8/picle/task1.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/10_task2.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/11_dec_with_params.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/12_task3.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/13_dec_wraps.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/14_dec_cash.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/1_f.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/2_func_closure_with_parametr.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/3_closure_change_or_not_object.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/4_task1.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/5_simple_decorator.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/6_sintax_sugar.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/7_sugar.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/8_multi_decorators.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Lessons/Lesson9/9_dop_args_decorator.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/from_csv.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/task2.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/task3.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/task4.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/task5.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/to_json_file.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/users.csv" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar8/users_new.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/guess.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/sum_func.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task1.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task2.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task3.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task4.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/.Seminars/Seminar9/task5.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson8/picle/my_dict.pickle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson8/picle/task1.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/10_task2.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/11_dec_with_params.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/12_task3.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/13_dec_wraps.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/14_dec_cash.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/1_f.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/2_func_closure_with_parametr.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/3_closure_change_or_not_object.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/4_task1.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/5_simple_decorator.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/6_sintax_sugar.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/7_sugar.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/8_multi_decorators.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lesson9/9_dop_args_decorator.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar8/from_csv.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar8/task2.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar8/task3.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar8/task4.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar8/task5.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar8/to_json_file.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar8/users.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar8/users_new.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar9/guess.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar9/sum_func.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar9/task1.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar9/task2.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar9/task3.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar9/task4.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminars/Seminar9/task5.py" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
