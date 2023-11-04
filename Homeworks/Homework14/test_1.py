@@ -46,3 +46,4 @@ with open('pytest_output.txt', 'r') as file:
 # Выводим первые 5 строк
 for line in first_five_lines:
     print(line)
+
