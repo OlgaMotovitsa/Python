@@ -1,0 +1,2 @@
+ERROR:log_decor:Ошибка division by zero в функции func_2 при аргументах (5, 0), {}
+ERROR:log_decor:Ошибка 'a' в функции my_func при аргументах ({'f': '1', 'd': '3', 's': '5'}, 'a', 2), {}
